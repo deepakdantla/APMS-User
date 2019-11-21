@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "737725483845",
+    "firebase_url": "https://automated-pms.firebaseio.com",
+    "project_id": "automated-pms",
+    "storage_bucket": "automated-pms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737725483845:android:ac38b413411bc019270c2c",
+        "android_client_info": {
+          "package_name": "com.apms_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737725483845-8ia2ujibrjad7dqeea1l5fehrb55h496.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apms_user",
+            "certificate_hash": "eed286cf3ec1122163fea4dd53ad395e41d1436d"
+          }
+        },
+        {
+          "client_id": "737725483845-41o9v1i5ub336nn81gvh41o8qrb8opsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIRMcfrthjYl-2y-UZkhlrJidJSJQ2Hmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737725483845-41o9v1i5ub336nn81gvh41o8qrb8opsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

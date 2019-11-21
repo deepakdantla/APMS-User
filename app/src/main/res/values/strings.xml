@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Car Parking</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_history">History</string>
+
+
+    <string name="heart_rate">HEART RATE</string>
+    <string name="slot_text">Slot</string>
+    <string name="slot_no">84</string>
+    <string name="blood_pearls">Blood pearls</string>
+    <string name="_36_6">36.6</string>
+    <string name="blood_presser">Blood Presser</string>
+    <string name="_130_85">130/85</string>
+    <string name="park_now">Park now</string>
+    <string name="depart">depart</string>
+</resources>

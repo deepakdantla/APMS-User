@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    tools:context=".MainActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/topToolBar"
+        android:layout_width="match_parent"
+        android:background="@drawable/line"
+        android:layout_height="@dimen/navbar_height">
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="@dimen/half_circle_width"
+        android:layout_height="@dimen/half_circle_height"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/circle"
+        android:translationZ="@dimen/tanslation" />
+
+    <ImageView
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/logo_peddingTop"
+        android:paddingBottom="@dimen/logo_peddingBottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_copyright_black_24dp"
+        android:translationZ="@dimen/tanslation" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topToolBar"
+        android:layout_marginTop="@dimen/heart_text_marginTop"
+        android:text="Parking status"
+        android:textAlignment="center"
+        android:textColor="@color/textColorHeartRate" />
+
+    
+    <RelativeLayout
+        android:layout_width="@dimen/circle_width"
+        android:layout_height="@dimen/circle_height"
+        android:background="@drawable/middle_circle"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:layout_centerInParent="true"
+            android:textSize="82sp"
+            android:textColor="#000000"
+            android:id="@+id/slotNumber"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:background="@drawable/signin_btn_rounded"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/park_now_btn"
+        android:layout_marginBottom="80dp"
+        android:text="@string/park_now"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/depart_btn"
+        android:textColor="@android:color/white"
+        android:background="@drawable/signin_btn_rounded"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="@string/depart"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>

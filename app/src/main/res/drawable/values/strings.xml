@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">APMS-User</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">dashboard</string>
+    <string name="profile">profile</string>
+    <string name="history">history</string>
+</resources>

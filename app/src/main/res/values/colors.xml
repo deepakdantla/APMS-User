@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49BEFF</color>
+    <color name="colorPrimaryDark">#65DCE5</color>
+    <color name="colorAccent">#0D5D98</color>
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="lineColor">#EEECEC</color>
+    <color name="layerOne">#14B6B4B4</color>
+    <color name="layerZero">#59F3EDED</color>
+
+    <color name="layertwo">#22B6B4B4</color>
+    <color name="layerthree">#34B6B4B4</color>
+    <color name="layerFour">#7ED6D3D3</color>
+    <color name="textColor">#E4D6D3D3</color>
+
+    <color name="activityBackground">#F8F7F7</color>
+    <color name="red">#E04242</color>
+    <color name="yellow">#FDD835</color>
+    <color name="green">#43A047</color>
+    <color name="blue">#3949AB</color>
+    <color name="orange">#FB8C00</color>
+    <color name="textColorHeartRate">#E91D9CB4</color>
+    <color name="darkBlack">#9C0E0F0F</color>
+</resources>
