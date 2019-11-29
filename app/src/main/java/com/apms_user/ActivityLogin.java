@@ -56,6 +56,20 @@ public class ActivityLogin extends AppCompatActivity {
                 String emailStr = email.getText().toString();
                 String pswdStr = pswd.getText().toString();
 
+                if(emailStr.isEmpty() && pswdStr.isEmpty()){
+                    email.setError("Please enter email !");
+                    pswd.setError("enter password !");
+                    return;
+                }
+
+                if(emailStr.isEmpty()){
+                    email.setError("Please enter email !");
+                    return;
+                }else if (pswdStr.isEmpty()){
+                    pswd.setError("enter password");
+                    return;
+                }
+
                 p.setMessage("Authenticating user...Please wait!");
                 p.show();
 

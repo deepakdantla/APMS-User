@@ -50,7 +50,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="8dp"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/gradStart">
 
                 <EditText
                     android:id="@+id/input_password"
@@ -74,9 +76,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Frgt Password / Change Password"
+                android:text="Forget Password / Change Password"
                 android:id="@+id/changePswd"
-                android:layout_gravity="right"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="12dp"
                 android:layout_marginBottom="12dp"
                 android:textColor="@color/gradStart"/>

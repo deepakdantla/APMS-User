@@ -34,7 +34,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="30dp"
-                android:src="@drawable/girl"
+                android:src="@drawable/ic_account_box_black_24dp"
                 android:id="@+id/userImg"
                 app:strokeColor="#ffffff" />
 
